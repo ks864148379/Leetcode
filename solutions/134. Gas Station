@@ -1,3 +1,4 @@
+”“”
 134. Gas Station
 
  There are N gas stations along a circular route, where the amount of gas at station i is gas[i].
@@ -14,7 +15,7 @@ Return the starting gas station's index if you can travel around the circuit onc
   然后想到用前后指针
   走一步，如果总的gas还为正，那么继续往下走
   如果走一步之后总的gas为负，那么从这个station的下个station重新开始走
-
+“”“
 class Solution(object):
     def canCompleteCircuit(self, gas, cost):
         """
